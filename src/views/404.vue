@@ -23,6 +23,7 @@ h1 {
 <script>
   export default {
     methods: {
+      $router: undefined,
       goHome() {
         this.$router.push('/')
       }
