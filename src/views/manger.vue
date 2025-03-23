@@ -1,7 +1,7 @@
 <template>
 <!--  头部区域-->
   <div class="title">
-    <div style="font-size: 20px;color: red"><span>丁正难藏泪</span></div>
+    <div style="font-size: 20px;color: lightskyblue"><span>丁正难藏泪</span></div>
     <div style="flex: 1"></div>
   </div>
 
