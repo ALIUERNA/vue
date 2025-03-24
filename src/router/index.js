@@ -6,8 +6,9 @@ const router = createRouter({
   routes: [
     {path: '/', name: 'home', component: import('@/views/Home.vue'),},
     {path: '/notFond', name: 'notFond', component: import('../views/404.vue'),},
-    {path: '/notFond', name: 'notFond', component: import('../views/404.vue'),},
-    {path: '/:pathMatch(.*)*', name: 'notFound', component: () => import('@/views/404.vue')}
+    {path: '/:pathMatch(.*)*', name: 'notFound', component: () => import('@/views/404.vue')},
+    {path: '/manger', name: 'notFond', component: import('../views/manger.vue'),},
+
   ],
 })
 
