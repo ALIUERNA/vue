@@ -40,8 +40,8 @@
       </el-menu>
     </div>
 <!--    数据渲染区域-->
-    <div>
-
+    <div style="flex: 1;width: 0;background-color: #e8eaff;padding: 10px">
+      <RouterView />
     </div>
   </div>
 </template>
