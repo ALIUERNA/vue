@@ -7,7 +7,7 @@
 </script>
 <style>
 .card{
-  background-color: white;
+  background-color: #fcf6f6;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0 0 8px rgba(0,0,0,.12);
