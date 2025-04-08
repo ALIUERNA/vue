@@ -28,7 +28,7 @@
   <div style="display: flex">
     <!--侧边导航栏-->
     <div style="width: 240px; box-shadow: 0 0 8px rgba(0,0,0,.12);">
-      <el-menu :default-openends="['1']" default-active="1"  style="min-height: calc(100vh - 60px)" text-color="#fff">
+      <el-menu :default-openeds="['1']" default-active="1" :router="true" style="min-height: calc(100vh - 60px)" text-color="#fff">
         <el-menu-item index="/manager/home"> <el-icon><House /></el-icon>首页</el-menu-item>
         <el-sub-menu index="1">
           <template #title>
@@ -36,7 +36,7 @@
             <span>用户管理</span>
           </template>
         </el-sub-menu>
-        <el-menu-item index="1-1"><el-icon><User /></el-icon>管理员信息</el-menu-item>
+        <el-menu-item index="/manager/admin"><el-icon><User /></el-icon>管理员信息</el-menu-item>
       </el-menu>
     </div>
 <!--    数据渲染区域-->
