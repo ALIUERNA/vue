@@ -36,6 +36,8 @@
   import { reactive } from 'vue'
   import {Search} from "@element-plus/icons-vue";
   import {handleCurrentChange} from "element-plus/es/components/tree/src/model/util";
+  import request from "../../utils/request.js";
+  import {ElMessage} from "element-plus";
   const  input = reactive({
     value: '',
     PageNum: 1,
@@ -49,6 +51,15 @@
           phone: ''
         },]
   })
+  request.get('admin/select').then(res => {
+    if (res.code === '200'){
+      console.log(res)
+    }else {
+      ElMessage.error(res.msg)
+    }
+
+  })
+
 </script>
 <style scoped>
 .custom-input {
