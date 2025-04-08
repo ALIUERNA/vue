@@ -33,10 +33,10 @@
         <el-sub-menu index="1">
           <template #title>
             <el-icon><location /></el-icon>
-            <span>数据管理</span>
+            <span>用户管理</span>
           </template>
         </el-sub-menu>
-        <el-menu-item index="1-1"><el-icon><User /></el-icon>人员管理</el-menu-item>
+        <el-menu-item index="1-1"><el-icon><User /></el-icon>管理员信息</el-menu-item>
       </el-menu>
     </div>
 <!--    数据渲染区域-->
